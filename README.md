@@ -19,8 +19,8 @@ import numpy as np
 a=np.array(eval(input()))
 norm=np.linalg.norm(a,1)
 print(norm)
-```
 
+```
 # 2-Norm of a Matrix
 ```
 import numpy as np
