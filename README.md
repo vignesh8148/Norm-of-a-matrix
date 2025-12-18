@@ -18,14 +18,12 @@ import numpy as np
 a=np.array(eval(input()))
 norm=np.linalg.norm(a,1)
 print(norm)
-```
-```
+
 import numpy as np
 a=np.array(eval(input()))
 n=np.linalg.norm(a,2)
 print("{:.2f}".format(n))
-```
-```
+
 import numpy as np
 a=np.array(eval(input()))
 n=np.linalg.norm(a,np.inf)
